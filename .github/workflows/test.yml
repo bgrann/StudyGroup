@@ -6,8 +6,6 @@ on:
     branches: [ develop ]
     paths:
      - 'CICD/application/**'
-    paths-ignore:
-      -'**.md'
 
 jobs:
   build:
