@@ -25,3 +25,5 @@ jobs:
     - name: Build
       run: dotnet build --no-restore ./CICD/application/*.sln
       
+runs: 
+  run: dotnet run --no-build --no-restore --configuration Release --project ./CICD/application/BenchRepo
